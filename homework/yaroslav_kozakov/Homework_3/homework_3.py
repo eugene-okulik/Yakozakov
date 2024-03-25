@@ -17,8 +17,8 @@ print(c)
 a = 10
 b = 5.5
 
-arithmetic_average = (a + b) /2
-geometric_average = (a * b)**0.5
+arithmetic_average = (a + b) / 2
+geometric_average = (a * b) ** 0.5
 
 print(arithmetic_average)
 print(geometric_average)
