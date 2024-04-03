@@ -8,7 +8,7 @@ list.append(3333)
 list.pop(1)
 print(list)
 
-dict = {1: 1, 'one': "biger_zero", 'two': '2', 'Love' : 'love', False: True}
+dict = {1: 1, 'one': "biger_zero", 'two': '2', 'Love': 'love', False: True}
 dict['i am a tuple'] = 'six value'
 removed_value = dict.pop(1)
 print(dict)
