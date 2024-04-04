@@ -1,13 +1,13 @@
 my_dict = {
-    'tuple': 
-    (1, 10, 'text', 3.14, True), 
-    'list': 
-    [2, 111, 'Hello!', 'number', False], 
-    'dict': 
-    {1: 1, 'one': "biger_zero", 'two': '2', 'Love': 'love', False: True}, 
+    'tuple':
+    (1, 10, 'text', 3.14, True),
+    'list':
+    [2, 111, 'Hello!', 'number', False],
+    'dict':
+    {1: 1, 'one': "biger_zero", 'two': '2', 'Love': 'love', False: True},
     'set':
     {1, 'one', 'two', 2.2, False}
-    }
+}
 
 print('tuple'[-1])
 
