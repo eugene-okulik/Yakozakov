@@ -11,7 +11,7 @@ my_dict['list'].append(3333)
 my_dict['list'].pop(1)
 print(my_dict['list'])
 
-my_dict['dict'][('i am a tuple','six')] = 'six'
+my_dict['dict'][('i am a tuple', 'six')] = 'six'
 removed_value = my_dict['dict'].pop('two')
 print(my_dict['dict'])
 
