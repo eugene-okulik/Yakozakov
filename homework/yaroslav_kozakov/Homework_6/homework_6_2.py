@@ -8,7 +8,7 @@ for i in range(1, 101):  # iterate over the numbers in the loop for from 1 to 10
         print("FuzzBuzz")
     elif i % 3 == 0:  # check divisibility up to 3
         print("fuzz")
-    elif i % 5  == 0:  # check divisibility up to 5
+    elif i % 5 == 0:  # check divisibility up to 5
         print("buzz")
     else:
         print(i)
