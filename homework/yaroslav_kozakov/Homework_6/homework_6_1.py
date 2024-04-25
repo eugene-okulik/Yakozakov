@@ -8,7 +8,7 @@
 
 text = (
     'Etiam tincidunt neque erat, quis molestie enim imperdiet vel.'
-    +'Integer urna nisl, facilisis vitae semper at, dignissim vitae libero'
+    + 'Integer urna nisl, facilisis vitae semper at, dignissim vitae libero'
 )
 words = text.split()  # split by method split string to the list
 new_words = []  # create a new list where will be added w+ing words
