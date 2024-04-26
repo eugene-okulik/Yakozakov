@@ -6,10 +6,11 @@
 # Если после слова идет запятая или точка, этот знак препинания должен идти
 # после того же слова, но уже преобразованного
 
-text = ('Etiam tincidunt neque erat, quis molestie enim imperdiet vel.\
-Integer urna nisl, facilisis vitae semper at, dignissim vitae libero')
+text = (
+    'Etiam tincidunt neque erat, quis molestie enim imperdiet vel.'
+    + 'Integer urna nisl, facilisis vitae semper at, dignissim vitae libero'
+)
 words = text.split()  # split by method split string to the list
-print(words)
 new_words = []  # create a new list where will be added w+ing words
 for word in words:  # go through the all words by the loop for in a list with a words
     new_words.append(word + 'ing')  # add to the end of each word of a splitted list a part 'ing'
